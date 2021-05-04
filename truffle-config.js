@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = 'lucky dinner invest radar guitar father vault room embrace angle vessel dawn';
+const mnemonic = 'your wallet seed code';
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -65,7 +65,7 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWalletProvider(
         mnemonic, 
-        'https://rinkeby.infura.io/v3/dd5a0ae2e6a944beb32ef93b39492025',
+        'infura link goes here',
         0,
         1
       ),
